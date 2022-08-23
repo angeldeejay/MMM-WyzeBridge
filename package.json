@@ -1,0 +1,25 @@
+{
+  "name": "MMM-WyzeBridge",
+  "version": "1.0.0",
+  "description": "Connects to a RTMP/RTSP/HLS Bridge for Wyze Cam server and display cameras",
+  "main": "MMM-WyzeBridge.js",
+  "author": "Andrés Vanegas",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "latest",
+    "grunt-eslint": "latest",
+    "grunt-jsonlint": "latest",
+    "grunt-markdownlint": "^1.0.13",
+    "grunt-stylelint": "latest",
+    "grunt-yamllint": "latest",
+    "http-proxy-middleware": "^2.0.6",
+    "stylelint-config-standard": "latest",
+    "time-grunt": "latest"
+  },
+  "dependencies": {
+    "@videojs/http-streaming": "^2.14.2",
+    "axios": "^0.27.2",
+    "nocache": "^3.0.4",
+    "video.js": "^7.20.2"
+  }
+}
